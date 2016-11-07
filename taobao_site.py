@@ -151,7 +151,7 @@ if __name__=='__main__':
     start = time.time()
     print("Start at %s" % start)    
     
-    homePage = "https://bananaumbrella.tmall.com"
+    homePage = "the taobao store url you like"
     itemList = itemList(homePage).getList()
     cwd = os.path.dirname(os.path.realpath(__file__))
     writer = pd.ExcelWriter(cwd+'/cite'+time.strftime('%Y%m%d-%H%M', time.localtime(start))+'.xlsx', engine='xlsxwriter')
