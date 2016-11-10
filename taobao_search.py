@@ -63,7 +63,7 @@ class Adddata:
         res = cursor.fetchall()
         if not res:
             payload = {
-                'key':'c7b75d907481d9c72eec146092028173','keywords':'',
+                'key':'amapkey','keywords':'',
                 'subdistrict': '0','showbiz':False,'output':'json',
                 }
             payload['keywords'] = city
@@ -93,7 +93,7 @@ class Visualize:
     
     def validated():
         import plotly
-        plotly.tools.set_credentials_file(username='Garfield_Liang', api_key='iqntqkqahj')
+        plotly.tools.set_credentials_file(username='yourname', api_key='yourapikey')
     
     def scatterGeo(self):
         import plotly.plotly as py
