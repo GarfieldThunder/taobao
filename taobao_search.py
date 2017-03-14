@@ -11,7 +11,7 @@ import pandas as pd
 import datetime
  
 class Paser:
-    neededColumns = ['category', 'comment_count', 'item_loc', 'nick', 'raw_title', 'reserve_price', 'view_price', 'view_sales']   
+    neededColumns = ['category', 'comment_count', 'item_loc', 'nick', 'raw_title', 'view_price', 'view_sales']   
     
     def __init__(self, url):
         self.url = url
